@@ -45,6 +45,8 @@ conda activate PhagoStat
 ## Microglia video microscopy dataset v1:
 
 <p align="center">
+ <img width="45%" src="./demos/dataset_0_cell.png">
+ <img width="45%" src="./demos/dataset_0_agg.png">
  <img width="45%" src="./demos/dataset_1_cell.png">
  <img width="45%" src="./demos/dataset_1_agg.png">
 </p>
