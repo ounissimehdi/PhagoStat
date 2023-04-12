@@ -1,0 +1,9 @@
+,methods,execution time (mean),execution time (std)
+0,Cellpose,1.0328,0.0238
+1,Stardist,0.2224,0.0173
+2,BioNet-LSTM,0.3062,0.0062
+3,BioNet(XAI),0.2038,0.0042
+4,Att-UNet-LSTM,0.3692,0.0062
+5,AttUNet(XAI),0.1573,0.0021
+6,UNet-LSTM,0.3692,0.0062
+7,UNet(XAI),0.1367,0.0069

@@ -1,0 +1,9 @@
+,methods,mIoU (mean),mIoU (std),Dice (mean),Dice (std)
+0,Cellpose,63.85,1.39,84.51,1.16
+1,Stardist,66.21,0.96,87.86,0.52
+2,BioNet-LSTM,63.94,6.48,92.2,2.78
+3,BioNet(XAI),65.94,5.31,91.24,2.66
+4,AttUNet-LSTM,71.17,2.77,91.87,2.6
+5,AttUNet(XAI),73.55,1.41,93.77,0.34
+6,UNet-LSTM,72.23,1.95,94.04,0.28
+7,UNet(XAI),72.29,2.6,93.18,1.18
