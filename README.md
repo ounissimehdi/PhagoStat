@@ -394,7 +394,7 @@ python step_0_gen_report.py
 ## Performance quantification:
 ### Execution time profiling (sorted from long to fast):
 
-<h2 align="center">
+<p align="center">
 
 | PhagoStat tasks                                                    | Time Elapsed on CPU only (min)    |
 |--------------------------------------------------------------------|-----------------------------------|
