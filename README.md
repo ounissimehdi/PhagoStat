@@ -15,7 +15,7 @@ A Scalable and Interpretable Deep learning Framework for Neurodegenerative Disea
 <p align="justify"> PhagoStat is an advanced Python-based pipeline developed to streamline the quantification and analysis of phagocytic activity in dynamic, unstained cells within real-world experimental settings. This innovative tool provides researchers with an efficient and reliable method for evaluating cellular phagocytosis, facilitating a deeper understanding of immune system mechanisms and cellular interactions.
 
 
-Pre-print paper link : 
+Pre-print paper link : https://hal.science/hal-04067345v1
 
 Thank you in advance for citing the paper and the GitHub repository.
 
@@ -447,4 +447,17 @@ python step_0_gen_report.py
   journal = {GitHub (Pre-print)},
   url = {\url{https://github.com/ounissimehdi/PhagoStat}}
 }
+
+@unpublished{ounissi:hal-04067345,
+  TITLE = {{Phagocytosis Unveiled: A Scalable and Interpretable Deep learning Framework for Neurodegenerative Disease Analysis}},
+  AUTHOR = {Ounissi, Mehdi and Latouche, Morwena and Racoceanu, Daniel},
+  URL = {https://hal.science/hal-04067345},
+  NOTE = {preprint},
+  YEAR = {2023},
+  MONTH = Apr,
+  KEYWORDS = {explainable artificial intelligence ; phase-contrast video microscopy ; neuro-phagocytosis ; neurodegenerative disease ; deep learning ; image processing},
+  HAL_ID = {hal-04067345},
+  HAL_VERSION = {v1},
+}
+
 ```
