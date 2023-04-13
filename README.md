@@ -136,25 +136,25 @@ python PhagoStat_interface.py   -acq_path '/path/to/file.czi' \
 
 ```bash
 # In the first terminal
-taskset --cpu-list 0 python PhagoStat_interface.py   -acq_path '/path/to/file.czi' \
-                                -output_path '/path/to/save/file'\
-                                -acquisition_offset 'OFFSET'\
-                                -scene_identification 0\
-                                -to_frames\
+taskset --cpu-list 0 python PhagoStat_interface.py    -acq_path '/path/to/file.czi' \
+                                                      -output_path '/path/to/save/file'\
+                                                      -acquisition_offset 'OFFSET'\
+                                                      -scene_identification 0\
+                                                      -to_frames\
 
 # In the second terminal
-taskset --cpu-list 1 python PhagoStat_interface.py   -acq_path '/path/to/file.czi' \
-                                -output_path '/path/to/save/file'\
-                                -acquisition_offset 'OFFSET'\
-                                -scene_identification 1\
-                                -to_frames\
+taskset --cpu-list 1 python PhagoStat_interface.py    -acq_path '/path/to/file.czi' \
+                                                      -output_path '/path/to/save/file'\
+                                                      -acquisition_offset 'OFFSET'\
+                                                      -scene_identification 1\
+                                                      -to_frames\
 
 # In the third terminal
-taskset --cpu-list 2 python PhagoStat_interface.py   -acq_path '/path/to/file.czi' \
-                                -output_path '/path/to/save/file'\
-                                -acquisition_offset 'OFFSET'\
-                                -scene_identification 2\
-                                -to_frames\
+taskset --cpu-list 2 python PhagoStat_interface.py    -acq_path '/path/to/file.czi' \
+                                                      -output_path '/path/to/save/file'\
+                                                      -acquisition_offset 'OFFSET'\
+                                                      -scene_identification 2\
+                                                      -to_frames\
 
 # And so on...
 ```
