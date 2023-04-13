@@ -395,6 +395,7 @@ python step_0_gen_report.py
 ### Execution time profiling (sorted from long to fast):
 
 <h2 align="center">
+
 | PhagoStat tasks                                                    | Time Elapsed on CPU only (min)    |
 |--------------------------------------------------------------------|-----------------------------------|
 | Data Quality Check & Shift Correction                              | 43                                |
@@ -403,6 +404,7 @@ python step_0_gen_report.py
 | Cellular Quantification: Instance Mask & Trajectories Estimation   | 07                                |
 | Aggregates Quantification & Blur Rejection                         | 03                                |
 | Phagocytosis quantification & statistics report generation         | 02                                |
+
 </p>
 
 <p align="justify"> This experiment was conducted using a single-core Xeon Gold 6126 CPU and 4GB of RAM per task, with an Nvidia RTX2080 GPU utilized for semantic mask estimation. The execution time was affected by the level of noise in the data.
@@ -412,12 +414,14 @@ python step_0_gen_report.py
 ### Registration performance:
 
 <p align="center">
+
 |                          | **Absolute error**  |**Absolute error**  |                |
 |--------------------------|---------------------|--------------------|----------------|
 |                          | along x-axis        | along y-axis       | Speed(sec)     |
 | ECC                      | 196.02±119.34       | 206.93±116.50      | **0.92±0.72**  |
 | SIFT                     |  _0.0153±0.0609_    | _0.0228±0.1221_    | _3.09±0.12_    |
 | **Ours:CECC (n=5)**      | **0.0079 ± 0.0046** | **0.0081±0.0047**  | 8.77±0.20      |
+
 </p>
 
 <p align="justify"> Performance evaluation of our CECC registration method compared to the state-of-the-art. We report the results as the mean ± standard deviation, calculated over 1,000 registration tests. Independent random shifts along the x and y axes were generated within a range of ±400 pixels for 2048x2048 pixel images. The best metrics per column are bolded, and the second-best metrics are underlined. Absolute error is calculated based on the difference between the estimated registration coordinates and the ground truth, which are the generated shifts along the x and y axes. Registration time cost is determined by the time taken to register a pair of images (reference and shifted). We conducted the evaluation using the following hardware: a 4-core Xeon Gold 6126 CPU and 1GB RAM. For the SIFT method, we used 2GB RAM, as 1GB was insufficient.
@@ -425,6 +429,7 @@ python step_0_gen_report.py
 ### Cell instance segmentation performance:
 
 <p align="center">
+
 |                         | **Detection metrics** |                |                |                |                | **Semantic metric**  | **Speed metrics**|                |
 |-------------------------|-----------------------|----------------|----------------|----------------|----------------|----------------------|------------------|----------------|
 |                         | mIoU(%)               | F1(%)          | Accuracy(%)    | Precision(%)   | Recall(%)      | Dice(%)              | Train epochs     | Inference(sec) |
@@ -436,6 +441,7 @@ python step_0_gen_report.py
 | **Ours:** UNet (XAI)     | _72.29±2.6_           | 85.44±2.12     | 75.72±2.92     | 87.95±2.87     | _83.56±2.46_   | 93.18±1.18           | **20**           | **0.136±0.0069** |
 | **Ours:** BiONet+LSTM    | 63.94±6.48            | 80.25±5.41     | 68.44±7.01     | 90.83±2.88     | 72.73±7.44     | 92.2±2.78            | 40               | 0.306±0.0062   |
 | **Ours:** BiONet (XAI)   | 65.94±5.31            | 81.43±4.13     | 70.09±5.33     | 88.67±3.67     | 75.99±5.95     | 91.24±2.66           | **20**           | 0.203 ± 0.0042 | 
+
 </p>
 
 <p align="justify"> Five-fold testing: Quantitative performance evaluation of the cell segmentation module (DL/IDL) compared to state-of-the-art methods. The reported results are the $(mean \pm standard~deviation)$, computed over 5-fold testing. The best metrics (per column) are highlighted in bold, and the second-best metrics are underlined. Instance-level segmentation (detection) evaluations were used to assess performance with different metrics (per cell mask). The mIoU (mean Intersection over Union) is calculated as the sum of IoU (cell mask-wise) of the predicted cell masks divided by the ground-truth cell count. To report these metrics, we used $IoU\geq50\%$ between ground truth and predicted masks to compute TP, FP, and FN. The $F1$ score is defined as $F1 = \frac{2TP}{2TP+FP+FN}$, while the $Accuracy = \frac{TP}{TP+FP+FN}$, $Precision = \frac{TP}{TP+FP}$, and $Recall = \frac{TP}{TP+FN}$. We utilized a semantic segmentation metric (i.e., Dice coefficient) to quantify the foreground/background pixel-wise separation, defined as $Dice = \frac{2\lvert gt \cap pred \rvert}{\lvert gt \rvert + \lvert pred \rvert}$, where $gt$ is the ground truth mask and $pred$ is the predicted mask ($background = 0, foreground = 1$). The training epochs refer to the number of epochs needed to complete the training phase. Inference time (after training on the test set) per image was computed using the following hardware: an 8-core i7 9700K CPU, 16GB RAM, NVIDIA.
