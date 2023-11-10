@@ -7,9 +7,7 @@
 </p>
 
 <h2 align="center">
-Phagocytosis Unveiled:
-
-A Scalable and Interpretable Deep learning Framework for Neurodegenerative Disease Analysis
+PhagoStat a scalable and interpretable end to end framework for efficient quantification of cell phagocytosis in neurodegenerative disease studies
 </h2>
 
 <p align="justify"> PhagoStat is an advanced Python-based pipeline developed to streamline the quantification and analysis of phagocytic activity in dynamic, unstained cells within real-world experimental settings. This innovative tool provides researchers with an efficient and reliable method for evaluating cellular phagocytosis, facilitating a deeper understanding of immune system mechanisms and cellular interactions.
