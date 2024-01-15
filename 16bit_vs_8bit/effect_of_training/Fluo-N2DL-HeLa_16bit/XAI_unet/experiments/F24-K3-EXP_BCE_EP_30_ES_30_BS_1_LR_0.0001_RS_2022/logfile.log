@@ -1,0 +1,550 @@
+2024-01-15 10:03:26 - root - INFO - [INFO] Using cuda
+2024-01-15 10:03:26 - root - INFO - [INFO]      NVIDIA GeForce RTX 2080
+2024-01-15 10:03:27 - root - INFO - [INFO] Caching the given dataset with 292 images and 292 masks
+2024-01-15 10:03:41 - root - INFO - [INFO] Caching the given dataset with 76 images and 76 masks
+2024-01-15 10:03:45 - root - INFO - [INFO] Starting training:
+        Experiment name                  : F24-K3-EXP_BCE_EP_30_ES_30_BS_1_LR_0.0001_RS_2022
+        Epochs number                    : 30
+        Early stop val loss- wait epochs : 30
+        Batch size                       : 1
+        Learning rate                    : 0.0001
+        Training dataset size            : 292
+        Validation dataset size          : 76
+        PyTorch random seed              : 2022
+        Model input channels             : 1
+        Model output channels            : 1
+        Path to logs and ckps            : experiments/F24-K3-EXP_BCE_EP_30_ES_30_BS_1_LR_0.0001_RS_2022
+        Cross-validation                 : 0
+    
+2024-01-15 10:04:24 - root - INFO - [INFO] Epoch 0 took 0 h 0 min 38:
+                Mean train loss          :  1.3041694048434904
+                Mean val   loss          :  0.2798471786081791
+
+        
+2024-01-15 10:04:24 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.41383129358291626
+
+        
+2024-01-15 10:04:24 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.6365906596183777
+
+        
+2024-01-15 10:04:24 - root - INFO - 
+                Best epoch 0 :
+            
+            
+2024-01-15 10:04:59 - root - INFO - [INFO] Epoch 1 took 0 h 0 min 34:
+                Mean train loss          :  0.2011185852836256
+                Mean val   loss          :  0.12446544133126736
+
+        
+2024-01-15 10:04:59 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.7462952733039856
+
+        
+2024-01-15 10:04:59 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.8092238903045654
+
+        
+2024-01-15 10:04:59 - root - INFO - 
+                Best epoch 1 :
+            
+            
+2024-01-15 10:05:33 - root - INFO - [INFO] Epoch 2 took 0 h 0 min 34:
+                Mean train loss          :  0.09068650202442931
+                Mean val   loss          :  0.11380836083308647
+
+        
+2024-01-15 10:05:33 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.8545875549316406
+
+        
+2024-01-15 10:05:33 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.8787305951118469
+
+        
+2024-01-15 10:05:33 - root - INFO - 
+                Best epoch 2 :
+            
+            
+2024-01-15 10:06:08 - root - INFO - [INFO] Epoch 3 took 0 h 0 min 35:
+                Mean train loss          :  0.06913435903109916
+                Mean val   loss          :  0.07754434836342146
+
+        
+2024-01-15 10:06:08 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.8903947472572327
+
+        
+2024-01-15 10:06:08 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.8854397535324097
+
+        
+2024-01-15 10:06:09 - root - INFO - 
+                Best epoch 3 :
+            
+            
+2024-01-15 10:06:45 - root - INFO - [INFO] Epoch 4 took 0 h 0 min 36:
+                Mean train loss          :  0.058636789745970135
+                Mean val   loss          :  0.10241329900332187
+
+        
+2024-01-15 10:06:45 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9085029363632202
+
+        
+2024-01-15 10:06:45 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9128753542900085
+
+        
+2024-01-15 10:06:45 - root - INFO - 
+                Best epoch 4 :
+            
+            
+2024-01-15 10:07:21 - root - INFO - [INFO] Epoch 5 took 0 h 0 min 36:
+                Mean train loss          :  0.05199518482111497
+                Mean val   loss          :  0.11773245762053289
+
+        
+2024-01-15 10:07:21 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9216070175170898
+
+        
+2024-01-15 10:07:21 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9219772219657898
+
+        
+2024-01-15 10:07:21 - root - INFO - 
+                Best epoch 5 :
+            
+            
+2024-01-15 10:07:58 - root - INFO - [INFO] Epoch 6 took 0 h 0 min 36:
+                Mean train loss          :  0.047746339366350275
+                Mean val   loss          :  0.11393031879867378
+
+        
+2024-01-15 10:07:58 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.930120587348938
+
+        
+2024-01-15 10:07:58 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9234790802001953
+
+        
+2024-01-15 10:07:58 - root - INFO - 
+                Best epoch 6 :
+            
+            
+2024-01-15 10:08:36 - root - INFO - [INFO] Epoch 7 took 0 h 0 min 37:
+                Mean train loss          :  0.044690722663414804
+                Mean val   loss          :  0.13896330695991455
+
+        
+2024-01-15 10:08:36 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9367272257804871
+
+        
+2024-01-15 10:08:36 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9242921471595764
+
+        
+2024-01-15 10:08:36 - root - INFO - 
+                Best epoch 7 :
+            
+            
+2024-01-15 10:09:14 - root - INFO - [INFO] Epoch 8 took 0 h 0 min 37:
+                Mean train loss          :  0.042430833658229
+                Mean val   loss          :  0.11870660529913087
+
+        
+2024-01-15 10:09:14 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9409574866294861
+
+        
+2024-01-15 10:09:14 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9217727184295654
+
+        
+2024-01-15 10:09:52 - root - INFO - [INFO] Epoch 9 took 0 h 0 min 38:
+                Mean train loss          :  0.04060173717212595
+                Mean val   loss          :  0.17380199777452568
+
+        
+2024-01-15 10:09:52 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9453373551368713
+
+        
+2024-01-15 10:09:52 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9299117922782898
+
+        
+2024-01-15 10:09:52 - root - INFO - 
+                Best epoch 9 :
+            
+            
+2024-01-15 10:10:31 - root - INFO - [INFO] Epoch 10 took 0 h 0 min 39:
+                Mean train loss          :  0.03909523616710754
+                Mean val   loss          :  0.1180298033317453
+
+        
+2024-01-15 10:10:32 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9483259916305542
+
+        
+2024-01-15 10:10:32 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.937193751335144
+
+        
+2024-01-15 10:10:32 - root - INFO - 
+                Best epoch 10 :
+            
+            
+2024-01-15 10:11:10 - root - INFO - [INFO] Epoch 11 took 0 h 0 min 38:
+                Mean train loss          :  0.03780305837217259
+                Mean val   loss          :  0.3021993547383892
+
+        
+2024-01-15 10:11:10 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9512467980384827
+
+        
+2024-01-15 10:11:10 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9182263612747192
+
+        
+2024-01-15 10:11:48 - root - INFO - [INFO] Epoch 12 took 0 h 0 min 38:
+                Mean train loss          :  0.03667522827163339
+                Mean val   loss          :  0.2761300246378309
+
+        
+2024-01-15 10:11:48 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9539950489997864
+
+        
+2024-01-15 10:11:48 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9158254265785217
+
+        
+2024-01-15 10:12:27 - root - INFO - [INFO] Epoch 13 took 0 h 0 min 38:
+                Mean train loss          :  0.03577372728374927
+                Mean val   loss          :  0.10972225087645807
+
+        
+2024-01-15 10:12:27 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9559339880943298
+
+        
+2024-01-15 10:12:27 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.939812421798706
+
+        
+2024-01-15 10:12:27 - root - INFO - 
+                Best epoch 13 :
+            
+            
+2024-01-15 10:13:06 - root - INFO - [INFO] Epoch 14 took 0 h 0 min 38:
+                Mean train loss          :  0.03491785354299905
+                Mean val   loss          :  0.09129396634862612
+
+        
+2024-01-15 10:13:06 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9579431414604187
+
+        
+2024-01-15 10:13:06 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9456712007522583
+
+        
+2024-01-15 10:13:06 - root - INFO - 
+                Best epoch 14 :
+            
+            
+2024-01-15 10:13:45 - root - INFO - [INFO] Epoch 15 took 0 h 0 min 38:
+                Mean train loss          :  0.034492776965186614
+                Mean val   loss          :  0.5292478937312568
+
+        
+2024-01-15 10:13:45 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9591512680053711
+
+        
+2024-01-15 10:13:45 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.8892146944999695
+
+        
+2024-01-15 10:14:24 - root - INFO - [INFO] Epoch 16 took 0 h 0 min 39:
+                Mean train loss          :  0.033777666475930036
+                Mean val   loss          :  0.1724004880035002
+
+        
+2024-01-15 10:14:24 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.960769534111023
+
+        
+2024-01-15 10:14:24 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9442948698997498
+
+        
+2024-01-15 10:15:04 - root - INFO - [INFO] Epoch 17 took 0 h 0 min 39:
+                Mean train loss          :  0.03418676389942635
+                Mean val   loss          :  0.14185596112848112
+
+        
+2024-01-15 10:15:04 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9600310325622559
+
+        
+2024-01-15 10:15:04 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9474572539329529
+
+        
+2024-01-15 10:15:04 - root - INFO - 
+                Best epoch 17 :
+            
+            
+2024-01-15 10:15:43 - root - INFO - [INFO] Epoch 18 took 0 h 0 min 39:
+                Mean train loss          :  0.03307800816550647
+                Mean val   loss          :  0.1120805887897548
+
+        
+2024-01-15 10:15:43 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9622079730033875
+
+        
+2024-01-15 10:15:43 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9490501284599304
+
+        
+2024-01-15 10:15:43 - root - INFO - 
+                Best epoch 18 :
+            
+            
+2024-01-15 10:16:23 - root - INFO - [INFO] Epoch 19 took 0 h 0 min 39:
+                Mean train loss          :  0.03262188291330248
+                Mean val   loss          :  0.12529342209822253
+
+        
+2024-01-15 10:16:23 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9631950855255127
+
+        
+2024-01-15 10:16:23 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.949357271194458
+
+        
+2024-01-15 10:16:23 - root - INFO - 
+                Best epoch 19 :
+            
+            
+2024-01-15 10:17:03 - root - INFO - [INFO] Epoch 20 took 0 h 0 min 39:
+                Mean train loss          :  0.03210846079538946
+                Mean val   loss          :  0.13715678757350697
+
+        
+2024-01-15 10:17:03 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9644619822502136
+
+        
+2024-01-15 10:17:03 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9499721527099609
+
+        
+2024-01-15 10:17:03 - root - INFO - 
+                Best epoch 20 :
+            
+            
+2024-01-15 10:17:42 - root - INFO - [INFO] Epoch 21 took 0 h 0 min 39:
+                Mean train loss          :  0.03147403889476028
+                Mean val   loss          :  0.06620038773766473
+
+        
+2024-01-15 10:17:42 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9659194946289062
+
+        
+2024-01-15 10:17:42 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9588021636009216
+
+        
+2024-01-15 10:17:42 - root - INFO - 
+                Best epoch 21 :
+            
+            
+2024-01-15 10:18:22 - root - INFO - [INFO] Epoch 22 took 0 h 0 min 39:
+                Mean train loss          :  0.031213999668467943
+                Mean val   loss          :  0.09323882252762192
+
+        
+2024-01-15 10:18:22 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9663994312286377
+
+        
+2024-01-15 10:18:22 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9523548483848572
+
+        
+2024-01-15 10:19:03 - root - INFO - [INFO] Epoch 23 took 0 h 0 min 40:
+                Mean train loss          :  0.031675377299320205
+                Mean val   loss          :  0.0726013921299263
+
+        
+2024-01-15 10:19:03 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9656034708023071
+
+        
+2024-01-15 10:19:03 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9524844288825989
+
+        
+2024-01-15 10:19:43 - root - INFO - [INFO] Epoch 24 took 0 h 0 min 39:
+                Mean train loss          :  0.03402140669601217
+                Mean val   loss          :  0.16283553772556938
+
+        
+2024-01-15 10:19:43 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9609194397926331
+
+        
+2024-01-15 10:19:43 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9541500806808472
+
+        
+2024-01-15 10:20:22 - root - INFO - [INFO] Epoch 25 took 0 h 0 min 39:
+                Mean train loss          :  0.03143146391702841
+                Mean val   loss          :  0.053544528292197933
+
+        
+2024-01-15 10:20:22 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9656040668487549
+
+        
+2024-01-15 10:20:22 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9576497673988342
+
+        
+2024-01-15 10:21:01 - root - INFO - [INFO] Epoch 26 took 0 h 0 min 39:
+                Mean train loss          :  0.030433962281078916
+                Mean val   loss          :  0.13429792740039134
+
+        
+2024-01-15 10:21:01 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9677309989929199
+
+        
+2024-01-15 10:21:01 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9526413679122925
+
+        
+2024-01-15 10:21:41 - root - INFO - [INFO] Epoch 27 took 0 h 0 min 39:
+                Mean train loss          :  0.030171902237893785
+                Mean val   loss          :  0.10015432691005499
+
+        
+2024-01-15 10:21:41 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9685022234916687
+
+        
+2024-01-15 10:21:41 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9562228322029114
+
+        
+2024-01-15 10:22:21 - root - INFO - [INFO] Epoch 28 took 0 h 0 min 39:
+                Mean train loss          :  0.029692388426716607
+                Mean val   loss          :  0.06759390207987867
+
+        
+2024-01-15 10:22:21 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9694907665252686
+
+        
+2024-01-15 10:22:21 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9570281505584717
+
+        
+2024-01-15 10:23:01 - root - INFO - [INFO] Epoch 29 took 0 h 0 min 39:
+                Mean train loss          :  0.02917534284523293
+                Mean val   loss          :  0.07603656586357638
+
+        
+2024-01-15 10:23:01 - root - INFO - 
+                -- Training of the model --
+                Dice                :  0.9706693887710571
+
+        
+2024-01-15 10:23:01 - root - INFO - 
+                -- Evaluation of the model --
+                Dice                :  0.9656825661659241
+
+        
+2024-01-15 10:23:01 - root - INFO - 
+                Best epoch 29 :
+            
+            
+2024-01-15 10:23:01 - root - INFO - [INFO] All cache deleted
+2024-01-15 10:23:01 - root - INFO - [INFO] All cache deleted
+2024-01-15 10:23:01 - root - INFO - [INFO] Testing the best model parameters ... 
+2024-01-15 10:23:01 - root - INFO - [INFO] Caching the given dataset with 92 images and 92 masks
+2024-01-15 10:23:08 - root - INFO - 
+                -- Testing the best model --
+                Test loss           :  0.14649809913142867
+                Dice                :  0.9642331004142761
+
+        
