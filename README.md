@@ -44,6 +44,9 @@ conda activate PhagoStat
 ```
 **Note** that this project is tested on: Windows: 11, MacOS: Ventura 13.2.1 and Lunix: Ubuntu 20.04.3 LTS.
 
+## Point2Cell efficent interactive biomedical image annotation:
+This tool was developed during the course of this project to alleviate the burden of meticulous annotation in polygon-based annotators. We have made the source code publicly available at the following link: [Point2Cell on GitHub](https://github.com/ounissimehdi/Point2Cell).
+
 ## Microglia video microscopy dataset v1:
 
 <p align="center">
