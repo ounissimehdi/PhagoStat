@@ -99,7 +99,7 @@ This tool was developed during the course of this project to alleviate the burde
 
 <p align="justify"> By providing this comprehensive dataset, the study aims to facilitate the development and application of novel methodologies in bioinformatics, computational modeling, and cellular biology. This initiative promotes innovation and collaboration among researchers in these interconnected disciplines, ultimately contributing to the understanding of cellular dynamics and the development of novel therapeutic strategies for neurodegenerative diseases like FTD.
 
-<p align="justify"> If you are interested in accessing this dataset, please contact the corresponding author by providing your affiliation and the purpose of downloading the dataset. Upon validation of your request, you will receive a link with a password to access the dataset. This approach ensures that the dataset is used responsibly and for research purposes, fostering collaboration and innovation in the scientific community.
+<p align="justify"> If you are interested in accessing this dataset, please check: https://zenodo.org/records/10803492
 
 ## Data Readout and Normalization Module: Processing Microscopy Data
 
