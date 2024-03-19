@@ -10,13 +10,17 @@
 PhagoStat a scalable and interpretable end to end framework for efficient quantification of cell phagocytosis in neurodegenerative disease studies
 </h2>
 
-<p align="justify"> PhagoStat is an advanced Python-based pipeline developed to streamline the quantification and analysis of phagocytic activity in dynamic, unstained cells within real-world experimental settings. This innovative tool provides researchers with an efficient and reliable method for evaluating cellular phagocytosis, facilitating a deeper understanding of immune system mechanisms and cellular interactions.
+<p align="justify"> PhagoStat is an advanced Python-based pipeline developed to streamline the quantification and analysis of phagocytic activity in dynamic, unstained cells within real-world experimental settings. This innovative tool provides researchers with an efficient and reliable method for evaluating cellular phagocytosis, facilitating a deeper understanding of immune system mechanisms and cellular interactions. DOI: 10.1038/s41598-024-56081-7
 
-Paper link : https://arxiv.org/abs/2304.13764
+Paper link : https://www.nature.com/articles/s41598-024-56081-7
 
 Dataset:     https://zenodo.org/records/10803492
 
 Thank you in advance for citing the paper and the GitHub repository.
+
+
+Ounissi, M., Latouche, M. & Racoceanu, D. PhagoStat a scalable and interpretable end to end framework for efficient quantification of cell phagocytosis in neurodegenerative disease studies. Sci Rep 14, 6482 (2024). https://doi.org/10.1038/s41598-024-56081-7
+
 
 <p align="center">
  <img width="60%" src="./demos/phago_microglial_v1.webp">
