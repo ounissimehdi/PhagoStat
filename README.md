@@ -451,6 +451,21 @@ python step_0_gen_report.py
 ## Citation
 
 ```bash
+@article{Ounissi2024,
+  author    = {Mehdi Ounissi and Morwena Latouche and Daniel Racoceanu},
+  title     = {PhagoStat: a scalable and interpretable end-to-end framework for efficient quantification of cell phagocytosis in neurodegenerative disease studies},
+  journal   = {Scientific Reports},
+  year      = {2024},
+  volume    = {14},
+  number    = {1},
+  pages     = {6482},
+  doi       = {10.1038/s41598-024-56081-7},
+  url       = {https://doi.org/10.1038/s41598-024-56081-7},
+  issn      = {2045-2322},
+  month     = {Mar},
+  day       = {18}
+}
+
 @misc{ounissi2023phagocytosis,
   author = {Ounissi, Mehdi and Latouche, Morwena and Racoceanu, Daniel},
   title = {Phagocytosis Unveiled: A Scalable and Interpretable Deep learning Framework for Neurodegenerative Disease Analysis},
@@ -459,13 +474,5 @@ python step_0_gen_report.py
   url = {\url{https://github.com/ounissimehdi/PhagoStat}}
 }
 
-@misc{ounissi2023phagocytosis,
-      title={Phagocytosis Unveiled: A Scalable and Interpretable Deep learning Framework for Neurodegenerative Disease Analysis}, 
-      author={Mehdi Ounissi and Morwena Latouche and Daniel Racoceanu},
-      year={2023},
-      eprint={2304.13764},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
-}
 
 ```
