@@ -3,6 +3,10 @@
 </h1>
 
 <p align="center">
+ <img width="60%" src="./demos/phagostat_logo.jpeg">
+</p>
+
+<p align="center">
  <img width="90%" src="./demos/PhagoStat.jpg">
 </p>
 
